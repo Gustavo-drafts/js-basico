@@ -7,13 +7,58 @@
 </head>
 
 <body>
-    <h1>My Page</h1>
+
+    <!-- função ONLOAD -->
+
+    <!-- 
+        <body onload="load()"> 
+    -->
+
+
+    <!-- função ONCLICK -->
+
+    <!-- 
 
     <button type="button" onclick="clicou()">Botão</button>
-    <h3 id="ex1">Obrigado por Clicar!</h3>
-    <p id="ex2">Obrigado por Clicar!</p>
-    <p id="ex2" onclick="redirect()">Redirecionar</p>
-    <h3 id="ex3">Obrigado por Clicar!</h3>
+
+        <h3 id="ex1">Obrigado por Clicar!</h3>
+        <p id="ex2">Obrigado por Clicar!</p>
+        <h3 id="ex3">Obrigado por Clicar!</h3> 
+    -->
+
+
+
+
+    <!-- funções redirecionamento -->
+
+    <!-- 
+        <p id="ex2" onclick="redirect()">Redirecionar</p> 
+    -->
+
+
+
+
+    <!-- função ON MOUSEOVER com 'this' -->
+
+    <!-- 
+        <p id="mousemove" onmouseover="troca(this)">Passe o mouse aqui!</p> 
+    -->
+
+
+    <!-- função ON MOUSEOVER + ONMOUSEOUT com 'this' -->
+
+    <!-- 
+        <p id="mousemove" onmouseover="troca(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+    -->
+
+    <!-- função onchange c/ this -->
+
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+
 </body>
 
 </html>

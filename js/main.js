@@ -86,5 +86,36 @@ function clicou(){
 }
 */
 
-// onmouseover
-// onchange
+/* ---------------- onmouseover -------------- */
+
+/*
+function troca(elemento){
+    // document.getElementById("mousemove").innerHTML = "Já Passou!";
+    // alert("troca texto");
+    elemento.innerHTML = "Já Passou!";
+}
+*/
+
+/*--------------- onmouseout --------------------- */
+
+/*
+function voltar(elemento){
+    // document.getElementById("mousemove").innerHTML = "Passou !";
+    elemento.innerHTML = "Passe o mouse aqui! (entrei aqui pelo --- this ---)";
+}
+*/
+
+/* -------------- onchange -------------------- */
+/*
+function funcaoChange(e){
+    console.log(e.value);
+}
+*/
+
+/* -------------- onload -------------------- */
+
+/*
+function load(){
+    alert("Página carregada!");
+}
+*/
