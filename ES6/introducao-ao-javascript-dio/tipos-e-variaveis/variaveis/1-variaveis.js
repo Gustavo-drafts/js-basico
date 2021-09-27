@@ -1,4 +1,4 @@
-var nameVar = "Guilherme";
+var nameVar = "Guilherme"; // var não respeita escopo de boco
 let nameLet = "Guilherme";
 const nameConst = "Guilherme";
 
