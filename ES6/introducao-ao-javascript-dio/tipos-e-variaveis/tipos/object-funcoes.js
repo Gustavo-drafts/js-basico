@@ -1,3 +1,4 @@
+/* const nome_obj_funcao = { chave: "valor" }; */
 const user = {
   name: "Guilherme",
   lastName: "Cabrini da Silva"
@@ -9,7 +10,7 @@ console.log("Propriedades do objeto user:", Object.keys(user));
 // Retorna um array de arrasy contendo [ nome_propriedade, valor_propriedade ]
 console.log("\nLista de propriedades e valores:", Object.entries(user));
 
-// Mergear propriedades de objetos
+// Mergear propriedades de objetos (adiciona a prop 'fullname' no 'user')
 Object.assign(user, { fullName: "Guilherme Cabrini da Silva" });
 
 console.log("\nAdiciona a propriedade fullName no objeto user", user);
